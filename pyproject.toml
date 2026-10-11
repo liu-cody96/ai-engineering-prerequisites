@@ -14,3 +14,8 @@ dependencies = [
     "python-dotenv>=1.2.4",
     "streamlit>=1.65.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "apps/api",
+]
