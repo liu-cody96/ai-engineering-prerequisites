@@ -23,5 +23,6 @@ members = [
 
 [dependency-groups]
 dev = [
+    "matplotlib>=3.11.2",
     "nbconvert>=7.17.2",
 ]
