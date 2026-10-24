@@ -23,6 +23,7 @@ members = [
 
 [dependency-groups]
 dev = [
+    "langsmith>=0.14.12",
     "matplotlib>=3.11.2",
     "nbconvert>=7.17.2",
     "qdrant-client>=1.20.0",
