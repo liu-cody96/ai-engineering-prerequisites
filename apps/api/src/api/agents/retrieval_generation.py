@@ -127,4 +127,5 @@ def rag_pipeline(query, qdrant_client, top_k=5):
         "question": query,
         "retrieved_context_ids": retrieved_context["retrieved_context_ids"],
         "retrieved_context": retrieved_context["retrieved_context"],
+        "retrieved_context_ratings": retrieved_context["retrieved_context_ratings"],
     }
